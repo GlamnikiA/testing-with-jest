@@ -19,5 +19,5 @@ exports.peek = function () {
 
 // Returnerar antalet elementer i stacken
 exports.size = function() {
-    return stack.length + 1; // Det här är medvetet felaktigt
+    return stack.length; // Det här är medvetet felaktigt
 }
