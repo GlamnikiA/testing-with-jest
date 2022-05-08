@@ -16,3 +16,8 @@ exports.pop = function () {
 exports.peek = function () {
     return _.last(stack); // Det här är medvetet felaktigt
 }
+
+// Returnerar antalet elementer i stacken
+exports.size = function() {
+    return stack.length + 1; // Det här är medvetet felaktigt
+}

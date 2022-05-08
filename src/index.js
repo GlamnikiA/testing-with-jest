@@ -16,7 +16,7 @@ window.onload = function () {
     push.addEventListener("click", function() {
         var x = prompt("Vad ska vi lägga på stacken?");
         stack.push(x);
-        display.innerHTML = x;
+        display.innerHTML = x + " Antal element i stacken: " + stack.size();
     });
 
     peek.addEventListener("click", function() {
