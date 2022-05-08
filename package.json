@@ -19,5 +19,7 @@
     "url": "https://github.com/GlamnikiA/testing-with-jest/issues"
   },
   "homepage": "https://github.com/GlamnikiA/testing-with-jest#readme",
-  "dependencies": {}
+  "dependencies": {
+    "underscore": "^1.13.3"
+  }
 }
